@@ -47,7 +47,6 @@ Tabel catatan riwayat data sensor per waktu dan tombol unduh file CSV.
 
 - https://github.com/DestinyD423
 - https://github.com/Aztecz-Superline
-=======
 
 ## License
 
