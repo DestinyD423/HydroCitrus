@@ -45,5 +45,15 @@ Tabel catatan riwayat data sensor per waktu dan tombol unduh file CSV.
 
 ## Kontributor
 
+<<<<<<< HEAD
 - https://github.com/DestinyD423
 - https://github.com/Aztecz-Superline
+=======
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Test
+>>>>>>> 98cfd02c0cd1cf9b30b63f08f384d0c8140a2fb6
