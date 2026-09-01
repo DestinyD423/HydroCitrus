@@ -1,58 +1,49 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h1><b>HydroCitrus</b></h1>
 
-## About Laravel
+<p>Sistem penyiram otomatis dan monitoring kelembaban tanaman jeruk bali berbasis IoT.</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p>Proyek tugas kuliah untuk membuat sistem irigasi otomatis yang bisa dipantau langsung lewat web dashboard. Pompa bekerja otomatis saat tanah kering dan bisa dikontrol manual dari web.</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## Preview
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 1. Dashboard
+Monitoring kelembaban tanah, status air di ember, dan kontrol manual pompa air.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![Dashboard](./assets/DASHBOARD.jpg)
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+### 2. Analisis Data
+Grafik tren kelembaban 24 jam terakhir dan ringkasan statistik kelembaban tanah.
 
-## Agentic Development
+![Analisis](./assets/ANALISIS.jpg)
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+### 3. Model 3D dan Hardware
+Visualisasi penempatan komponen pada pot tanaman dan daftar modul yang digunakan.
 
-```bash
-composer require laravel/boost --dev
+![Desain 3D](./assets/DESAIN%203D.jpg)
 
-php artisan boost:install
-```
+### 4. Riwayat Log
+Tabel catatan riwayat data sensor per waktu dan tombol unduh file CSV.
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+![Log Sistem](./assets/LOG.jpg)
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Hardware yang Digunakan
 
-## Code of Conduct
+- Microcontroller: ESP32-S3 DevKitC1 N16R8
+- Sensor Kelembaban: Resistive Soil Moisture Sensor
+- Sensor Level Air: Water Float Switch
+- Pompa: Water Pump 5V dan Modul Relay
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## Kontributor
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- https://github.com/DestinyD423
+- https://github.com/Aztecz-Superline
